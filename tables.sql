@@ -1,0 +1,17 @@
+CREATE DATABASE globe;
+use globe;
+create table country(country_name varchar(30),country_population bigint,country_states int,country_capital varchar(5),country_teritoris int,country_malls bigint,country_tradition varchar(10),coutry_languages varchar(40),country_cities int,country_agriculture double);
+desc country;
+use globe;
+create table oceans(ocean_name varchar(50),ocean_no int,ocean_largest_rivr varchar(70),ocean_rivers_merged bigint,ocean_aqualife bigint,ocean_largest_aqualife varchar(40),ocean_ships int,ocean_water_qantity double,ocean_beaaches bigint,ocean_number int);
+desc oceans;
+create table continents(continent_name varchar(10),continent_no int,continent_larger_one varchar(10),content_type varchar(30),continent_lives bigint,continent_area bigint,continent_width double,continent_feaatures varchar(50),continent_atmosphere varchar(40),continent_countries_no int);
+desc continents;
+create table government(government_name varchar(30),government_type varchar(60),goverment_head varchar(32),government_sectors int,government_funds bigint,government_budjet bigint,government_employees bigint,goverment_meetings int,government_parties int,government_companies bigint);
+create table eletric_subtances(eletric_type varchar(20),eletricity_name varchar(20),eletric_stations bigint,eletric_properties int,eletrician_no bigint,eletric_station_id int,eletricc_poles bigint,eletric_nature varchar(10),eletric_connection_number bigint,eletric_switches bigint);
+create table education_system(education_type varchar(20),education_level int,education_related_jobs varchar(50),educated_people bigint,non_educated_people bigint,education_minister varchar(30),education_percentage double,education_standards varchar(70),education_noof_teachers int,education_board_types int);
+create table movies(movie_name varchar(10),movie_budget bigint,movie_talk varchar(60),movie_release_date varchar(30),movie_noof_crew int,movie_hero varchar(20),movie_heroine varchar(40),movie_noof_theaters int,movie_noof_audience bigint,movie_special_charecter varchar(80));
+create table grains_info(grains_name varchar(10),grains_type varchar(40),gains_weight int,grains_price int,grains_produce varchar(60),grains_season varchar(50),grains_calories bigint,grains_carbohydrates bigint,grains_type_popular varchar(40),grains_produce_percentage double,grains_value int);
+create table brands_info(brand_name varchar(90),brand_types int,brand_price int,drand_value varchar(30),brand_place varchar(50),brand_ambassador varchar(20),brand_qualatiy double,brand_headquaters varchar(50),brand_noof_products bigint,brand_product_sales int);
+create table city_info(city_name varchar(20),city_noof_cities int,city_famous varchar(50),city_noof_streets int,city_noof_companies int,city_signals bigint,city_tourist_places int,city_head varchar(40),city_noof_population bigint,city_noof_city_buses bigint);
+desc city_info;
