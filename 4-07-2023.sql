@@ -40,6 +40,16 @@ UPDATE country SET country_id=3  WHERE country_id=30;
 UPDATE country SET country_name='usa' WHERE country_name='united states';
 UPDATE country SET country_malls=96400 WHERE country_malls=30756;
 UPDATE country SET country_states=20 WHERE country_states=35;
+SELECT * FROM  country WHERE country_id=2 AND country_malls=700;
+SELECT * FROM  country WHERE country_id=3 AND country_malls=27000;
+SELECT * FROM  country WHERE country_id=4 AND country_malls=56000;
+SELECT * FROM  country WHERE country_id=5 AND country_malls=39000;
+SELECT * FROM  country WHERE country_id=6 AND country_malls=8000;
+SELECT * FROM country WHERE country_malls=700 OR country_cities=56;
+SELECT * FROM country WHERE country_malls=27000 OR country_cities=37;
+SELECT * FROM country WHERE country_malls=56000 OR country_cities=39;
+SELECT * FROM country WHERE country_malls=39000 OR country_cities=56;
+SELECT * FROM country WHERE country_malls=8000 OR country_cities=23;
 
 CREATE TABLE oceans(ocean_id int,ocean_name varchar(50),ocean_surrounding_country varchar(70),ocean_aqualife bigint,ocean_ships int,ocean_beaches bigint);
 INSERT INTO oceans VALUES(1,'bay_of_baybengal','india',5678890,100,10);
